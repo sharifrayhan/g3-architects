@@ -1,5 +1,5 @@
 
-@media screen and (max-width:900px) {
+@media screen and (min-width:576px), (max-width:992px) {
     nav{
         display:flex;
         flex-direction: column;
@@ -11,15 +11,56 @@
 
     .image-box{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 1.2rem;
     }
 }
 
-@media screen and (min-width:900) and (max-width:1337px) {
+@media screen and (max-width:576px){
+    nav{
+        display:flex;
+        flex-direction: column;
+        gap: 2rem;
+
+    }
+
+    .banner img{
+        width: 100%;
+    }
+    .second-section{
+        padding: 40px 0px 20px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .image-box img{
+        width: 100%;
+    }
+    
+
     .image-box{
-        display: grid;
-        grid-template-columns: repeat(auto-fill, 1fr);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
         gap: 1rem;
+    }
+
+    .i-b-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .i-b-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

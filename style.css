@@ -95,7 +95,7 @@ nav h3{
 .second-section{
     padding: 40px 150px 20px 150px;
     display: flex;
-    flex-wrap: wrap;
+    
     gap: 3rem;
 }
 
@@ -104,9 +104,18 @@ nav h3{
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 }
-
+.i-b-1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.i-b-2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
 .image-box img{
-    width: 14rem;
+    width: 100%;
 }
 
 .text-box-2 h3{
