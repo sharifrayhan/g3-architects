@@ -1,0 +1,9 @@
+
+@media screen and (max-width:900px) {
+    nav{
+        display:flex;
+        flex-direction: column;
+        gap: 2rem;
+
+    }
+}
