@@ -93,5 +93,54 @@ nav h3{
 }
 
 .second-section{
-    padding: 20px 150px 20px 150px;
+    padding: 40px 150px 20px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.image-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.image-box img{
+    width: 14rem;
+}
+
+.text-box-2 h3{
+    color: var(--dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#t-1{
+    color: var(--dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;   
+}
+
+#t-2{
+    color: #FF900E;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text-box-2 p{
+    color: var(--dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
 }
